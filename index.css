@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(47, 50, 74);
+}
+.text{
+    text-align: center;
+}
+
+div{
+    color: red;
+    text-align: center;
+    border-color: red;
+}

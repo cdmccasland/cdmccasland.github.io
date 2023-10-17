@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+}
+
+.div1{
+    display: flex;
+    margin:0px;
+    width:200vh;
+    height:100vh;
+    background-image: url('Images/mountain_background.png');
+    background-size:cover;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color:white;
+}
+
+.div2{
+    display: flex;
+    margin:0px;
+    width:200vh;
+    background-color: rgb(45,17,43);
+    justify-content: center;
+    flex: 1 2 auto;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color:green;
+}
+.title {
+    margin-top: 12%;
+    margin-bottom: 0%;
+    height:20vh;
+    width: 140vh;
+    text-align: center;
+    font-size: 15vh;
+    font-family:Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: red;
+}
+
+.subtitle {
+    margin-top: 0%;
+    height:20vh;
+    width: 140vh;
+    text-align: center;
+    font-size: 8vh;
+    font-family:Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: blue;
+}
+
+.projects {
+    width: 50vh;
+    height: 70vh;
+    margin: 5vh;
+    border-style: solid;
+    border-color: rgb(122, 79, 142);
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.project_title {
+    margin:0;
+    height: 15%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.project_img {
+    margin: 0;
+    height: 65%;
+    width: 100%;
+    display:block;
+}
+
+.project_description {
+    margin:0;
+    height: 20%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    background-color: aliceblue;
+}
